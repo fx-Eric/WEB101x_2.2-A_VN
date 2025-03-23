@@ -1,0 +1,207 @@
+#banner {
+  background-image: linear-gradient(hsla(0, 0%, 22%, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/banner.jpg);
+  height: 60vh;
+  background-size: cover;
+}
+
+#banner h1 {
+  padding-top: 9.6rem;
+}
+
+#banner span {
+  color: #b6b5b5;
+}
+
+.navbar {
+  padding: 0;
+  height: 5rem;
+}
+
+.job-detail {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.info-1 {
+  background-color: #faf6ec;
+}
+
+.info-2 {
+  background-color: #ececec;
+}
+
+.job-box li {
+  line-height: 1.6;
+}
+
+.job-box li::before {
+  content: "\2022";
+  color: rgb(0, 164, 230);
+  font-weight: bold;
+  display: inline-block;
+  font-size: 28px;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.today {
+  background-color: rgb(0, 164, 230);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 4px 8px;
+}
+
+.job-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 40px;
+}
+
+.job-box li {
+  line-height: 1.6;
+}
+
+.job-box li::before {
+  content: "\2022";
+  color: rgb(0, 164, 230);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.time {
+  margin-bottom: 12px;
+}
+
+.hobbie-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.hobbie-icon {
+  width: 54px;
+  height: 54px;
+  padding: 8px;
+  border: 2px solid rgb(0, 164, 230);
+  stroke: rgb(0, 164, 230);
+  border-radius: 50%;
+}
+
+.skill li {
+  width: 80%;
+  list-style: none;
+}
+
+.skill li span {
+  margin-bottom: 2rem;
+}
+
+.bar {
+  background-color: #353b48;
+  display: block;
+  height: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden; /* Ẩn đi phần thừa của border*/
+  box-shadow: 0 1px 3px rgb(0, 0, 0, 0.12), 0 1px 2px rgb(0, 0, 0, 0.24);
+  /* transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); */
+}
+
+/* .bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+}  nếu muốn màu mè khi chạm vào*/
+
+.bar span {
+  height: 10px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 164, 230) 0%,
+    rgba(252, 103, 1031) 100%
+  );
+}
+
+.english {
+  width: 30%;
+}
+
+.japanese {
+  width: 25%;
+}
+
+.html-css {
+  width: 25%;
+}
+
+.js {
+  width: 50%;
+}
+
+.nodejs {
+  width: 50%;
+}
+
+.bootstrap {
+  width: 25%;
+}
+
+.cert-img {
+  width: 30%;
+}
+
+.cert-1 {
+  padding-right: 5rem;
+  border-right: 1px solid #d6c08d;
+}
+
+.cert-2 {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #d6c08d;
+}
+
+.cert-3 {
+  padding-top: 3rem;
+  border-top: 1px solid #d6c08d;
+}
+
+.project-title {
+  border: 1px solid hsla(0, 0%, 61%, 0.5);
+  border-bottom: none;
+
+  padding: 12px 24px;
+  margin: 0;
+}
+
+.project-info {
+  display: flex;
+  border: 1px solid hsla(0, 0%, 61%, 0.5);
+  border-bottom: none;
+}
+
+table {
+  border: 1px solid hsla(0, 0%, 61%, 0.5);
+  border-collapse: collapse;
+  line-height: 1.5;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px 24px;
+  border: 1px solid hsla(0, 0%, 61%, 0.5);
+}
+
+th {
+  width: 30%;
+}
+
+.footer-icon {
+  background-color: rgb(0, 132, 185);
+  padding: 3px;
+}

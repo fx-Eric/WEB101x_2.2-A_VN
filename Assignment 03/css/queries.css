@@ -1,0 +1,52 @@
+/* TABLET / LAPTOP */
+@media (max-width: 80em) {
+  .grid-3,
+  .grid-3col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+/* MOBILE */
+@media (max-width: 44em) {
+  .container {
+    padding: 0;
+  }
+
+  .grid-3,
+  .grid-2,
+  .grid-3col {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .info-1 h1,
+  .info-1 p,
+  .info-2 h1 {
+    padding: 20px;
+  }
+
+  .info-2 li {
+    padding-left: 20px;
+    overflow-x: auto;
+  }
+  .cert-img {
+    width: 45%;
+  }
+
+  .project-info {
+    flex-direction: column;
+  }
+
+  .project-info p {
+    padding-left: 2rem;
+    width: 15%;
+  }
+}

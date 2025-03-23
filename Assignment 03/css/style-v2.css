@@ -1,0 +1,22 @@
+.box {
+  background-color: rgb(227, 248, 248);
+  margin: 1rem;
+  padding: 15px;
+}
+
+.timeline {
+  grid-column: 3;
+  grid-row: 1/3;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.bg-indigo {
+  background-color: rgb(202, 154, 236);
+}
+
+.item-timeline {
+  border-bottom: 1px dotted aqua;
+}
